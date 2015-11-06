@@ -41,8 +41,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Board.cs" />
+    <Compile Include="ConwaysGOL.cs" />
     <Compile Include="FauxGameOfLife.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ConwaysGameOfLifeTest\ConwaysGameOfLifeTest.csproj">
+      <Project>{3969d5d4-1a10-4297-915d-37ff7e11c145}</Project>
+      <Name>ConwaysGameOfLifeTest</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
